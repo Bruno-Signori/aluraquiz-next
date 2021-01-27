@@ -1,5 +1,6 @@
 import React from 'react';
 const FooterAlura: React.FC = () => {
+  
   return(
     <>
     <div className=" flex text-blue-light bg-gray-lightest bg-opacity-90 justify-items-center p-7 rounded-md">

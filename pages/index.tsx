@@ -1,8 +1,11 @@
 import db from '../db.json';
-import FooterAlura from '../src/components/footerAlura';
-import { GithubCorner } from '../src/components/githubCorner';
-import { LogoSVG } from '../src/components/logoSVG';
-import SectionHomeOne from '../src/components/sectionHomeOne';
+import FooterAlura from '../components/footerAlura';
+import { GithubCorner } from '../components/githubCorner';
+import { LogoSVG } from '../components/logoSVG';
+import SectionHomeOne from '../components/sectionHomeOne';
+
+
+
 export default function Home() {
   return (
       <div className="flex-1 w-screen h-screen bg-cover bg-center"  style={{backgroundImage:`url(${db.bg})`}}>
