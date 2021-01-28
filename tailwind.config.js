@@ -31,14 +31,15 @@ module.exports = {
       inset: {
        '-2': '-1.2rem',
       },
+      
   }, 
   },
   variants: {
     extend: {
       borderWidth: ['hover', 'focus'],
       margin: ['hover', 'focus'],
-      padding: ['hover', 'focus']
-      
+      padding: ['hover', 'focus'],
+      opacity: ['disabled']
     },
   },
   plugins: [],
