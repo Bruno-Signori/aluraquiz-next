@@ -3,6 +3,7 @@ import FooterAlura from '../components/footerAlura';
 import { GithubCorner } from '../components/githubCorner';
 import { LogoSVG } from '../components/logoSVG';
 import SectionHomeOne from '../components/sectionHomeOne';
+import Footer from '../components/Footer';
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
               <LogoSVG />
               <SectionHomeOne />
               <FooterAlura/>
+              <Footer />
             </div>
             </div>
       </div>
